@@ -1,5 +1,8 @@
-console.log('hello github')
+const express = require("express");
+const app = express();
 
-function add(x,y){
-    return x+y
-}
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
+
+app.listen(3000);

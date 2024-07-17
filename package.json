@@ -1,0 +1,14 @@
+{
+  "name": "trainnodejs1",
+  "version": "1.0.0",
+  "description": "training node js with github for me\r training commit github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
